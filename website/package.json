@@ -41,7 +41,7 @@
     "@testing-library/jest-dom": "^5.11.0",
     "@testing-library/react": "^10.4.5",
     "@types/classnames": "2.2.10",
-    "@types/enzyme": "3.10.5",
+    "@types/enzyme": "^3.10.5",
     "@types/jest": "25.2.3",
     "@types/js-combinatorics": "0.5.32",
     "@types/json2mq": "0.2.0",

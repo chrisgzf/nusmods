@@ -1,6 +1,7 @@
-const { configure } = require('enzyme');
-const { setAutoFreeze } = require('immer');
-const Adapter = require('enzyme-adapter-react-16');
+import '@testing-library/jest-dom';
+import { configure } from 'enzyme';
+import { setAutoFreeze } from 'immer';
+import Adapter from 'enzyme-adapter-react-16';
 
 configure({ adapter: new Adapter() });
 
