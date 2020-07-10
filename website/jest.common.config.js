@@ -2,7 +2,9 @@ module.exports = {
   roots: ['<rootDir>/src'],
   moduleDirectories: ['node_modules', '<rootDir>/src'],
   moduleFileExtensions: ['jsx', 'js', 'ts', 'tsx'],
-  setupFiles: ['<rootDir>/scripts/test.js'],
+  // Runs a script to setup tests, e.g. import custom matchers for
+  // react-testing-library's to extend jest's expect function
+  setupFilesAfterEnv: ['<rootDir>/scripts/test.ts'],
   moduleNameMapper: {
     // Mock non JS files as strings
     '\\.(?:jpg|jpeg|png|gif|eot|otf|webp|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$':
