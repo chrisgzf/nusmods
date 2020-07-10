@@ -2,8 +2,8 @@ import * as React from 'react';
 import { shallow } from 'enzyme';
 import SearchBox from './SearchBox';
 
-describe(SearchBox, () => {
-  test('should match snapshot', () => {
+describe('<SearchBox />', () => {
+  it('should render', () => {
     expect(
       shallow(
         <SearchBox
@@ -11,13 +11,14 @@ describe(SearchBox, () => {
           useInstantSearch={false}
           isLoading={false}
           value=""
-          placeholder=""
           onChange={jest.fn()}
           onSearch={jest.fn()}
         />,
       ),
     ).toMatchSnapshot();
+  });
 
+  it('should render loading state', () => {
     expect(
       shallow(
         <SearchBox
@@ -25,13 +26,14 @@ describe(SearchBox, () => {
           useInstantSearch={false}
           isLoading
           value=""
-          placeholder=""
           onChange={jest.fn()}
           onSearch={jest.fn()}
         />,
       ),
     ).toMatchSnapshot();
+  });
 
+  it('should render with value and placeholder', () => {
     expect(
       shallow(
         <SearchBox

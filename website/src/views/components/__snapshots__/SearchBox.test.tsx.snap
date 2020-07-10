@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`SearchBox should match snapshot 1`] = `
+exports[`<SearchBox /> should render 1`] = `
 <div
   className=""
 >
@@ -24,7 +24,6 @@ exports[`SearchBox should match snapshot 1`] = `
       onBlur={[Function]}
       onChange={[Function]}
       onFocus={[Function]}
-      placeholder=""
       spellCheck={true}
       type="search"
       value=""
@@ -33,7 +32,7 @@ exports[`SearchBox should match snapshot 1`] = `
 </div>
 `;
 
-exports[`SearchBox should match snapshot 2`] = `
+exports[`<SearchBox /> should render loading state 1`] = `
 <div
   className=""
 >
@@ -62,7 +61,6 @@ exports[`SearchBox should match snapshot 2`] = `
       onBlur={[Function]}
       onChange={[Function]}
       onFocus={[Function]}
-      placeholder=""
       spellCheck={true}
       type="search"
       value=""
@@ -71,7 +69,7 @@ exports[`SearchBox should match snapshot 2`] = `
 </div>
 `;
 
-exports[`SearchBox should match snapshot 3`] = `
+exports[`<SearchBox /> should render with value and placeholder 1`] = `
 <div
   className=""
 >
