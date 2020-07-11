@@ -88,6 +88,7 @@ exports[`<SearchBox /> should render with value and placeholder 1`] = `
     />
     <X
       className="removeInput"
+      data-testid="removeInputBtn"
       onClick={[Function]}
       pointerEvents="bounding-box"
     />

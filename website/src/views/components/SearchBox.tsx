@@ -120,6 +120,7 @@ export default class SearchBox extends React.PureComponent<Props, State> {
           {value && (
             <X
               className={styles.removeInput}
+              data-testid="removeInputBtn"
               onClick={this.onRemoveInput}
               pointerEvents="bounding-box"
             />
